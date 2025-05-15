@@ -1,0 +1,28 @@
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: client
+  labels: 
+    name: client
+---
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: tenant
+  labels: 
+    name: tenant
+---
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: finans
+  labels: 
+    name: finans
+---
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: databi
+  labels: 
+    name: databi
+
