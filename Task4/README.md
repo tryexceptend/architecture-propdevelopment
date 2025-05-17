@@ -3,7 +3,7 @@
 Запуск minikube
 
 ```bash
-minikube start --vm-driver=virtualbox --addons=metrics-server --no-vtx-check --memory=8192 --cpus=4 --authorization-mode=RBAC
+minikube start --vm-driver=virtualbox --addons=metrics-server --no-vtx-check --memory=8192 --cpus=4
 ```
 
 Активация метрик
